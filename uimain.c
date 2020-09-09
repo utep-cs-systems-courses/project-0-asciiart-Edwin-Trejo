@@ -24,6 +24,9 @@ int main()
       puts("You selected square:");
       print_square(5, 5);
       break;
+    case 'a':
+      puts("You selected arrow:");
+      break;
     case 'c':
       puts("You selected chars:");
       for (char c = 'A'; c < 'D'; c++)
